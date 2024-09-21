@@ -1,2 +1,2 @@
 # BST
-Implementation of binary search tree using C++.
+This implementation provides a basic Binary Search Tree (BST) data structure in C++. The BST is a node-based binary tree data structure which has the following properties: the left subtree of a node contains only nodes with keys less than the node's key, and the right subtree of a node contains only nodes with keys greater than the node's key. The implementation includes functions for inserting nodes into the tree and searching for nodes in the tree. The Insert function recursively adds nodes to the tree while maintaining the BST property, and the Search function recursively searches for a node in the tree. 
