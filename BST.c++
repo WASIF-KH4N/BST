@@ -52,11 +52,11 @@ int main(){
     root=Insert(root,20);
     root=Insert(root,25);
        
-    int nuber;
+    int number;
     cout<<"Enter number to be searched:"<<endl;
     cin>>number;
 
-if(Search(root,nuber)==true){
+if(Search(root, number)==true){
 cout<<"FOUND"<<endl;
 }
 else{
