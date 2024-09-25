@@ -36,7 +36,7 @@ bool Search(BstNode* root,int data){
     else if(root->data==data){
         return true;
     }
-    else if(data>=root->data){
+    else if(data<=root->data){
         return Search(root->left,data);
     }
     else{
