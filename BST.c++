@@ -45,7 +45,7 @@ bool Search(BstNode* root,int data){
 }
 int main(){
     BstNode* root = NULL;
-    root=Insert(roo,15);
+    root=Insert(root,15);
     root=Insert(root,10);
 
     root=Insert(root,5);
