@@ -26,6 +26,7 @@ BstNode* Insert(BstNode* root,int data){
     else{
         root->right =Insert(root->right,data);
     }
+    return root;
    
 }
 
